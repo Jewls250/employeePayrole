@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Jewls250/employeePayrole/issues"
   },
-  "homepage": "https://github.com/Jewls250/employeePayrole#readme"
+  "homepage": "https://github.com/Jewls250/employeePayrole#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
 }

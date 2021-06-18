@@ -4,20 +4,20 @@ CREATE database employee_payroll;
 USE employee_payroll;
 
 CREATE TABLE employee (
-  position INT NOT NULL,
   first_name VARCHAR (30),
   last_name VARCHAR (30),
-  phone_number INT
+  phone_number INT,
   age INT,
-  employee_id
+  id_number INT,
+  email VARCHAR (30),
   PRIMARY KEY (position)
 );
 
 CREATE TABLE payroll (
-  position INT NOT NULL,
+  position VARCHAR(30) ,
   wage DECIMAL,
   job_description VARCHAR (200),
-  id_number INT
+  id_number INT,
   hours_worked DECIMAL,
   PRIMARY KEY  (position)
 );
