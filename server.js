@@ -14,7 +14,7 @@ app.use(express.json());
 // Import routes and give the server access to them.
 require("./controller/htmlController")(app);
 require("./controller/payrollController")(app);
-// require("./controller/employeeController")(app);
+require("./controller/employeeController")(app);
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, () =>
